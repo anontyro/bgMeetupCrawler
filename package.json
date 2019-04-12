@@ -1,0 +1,18 @@
+{
+  "name": "meetupscraper",
+  "version": "1.0.0",
+  "description": "scraping of meetup boardgame marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf dist && mkdir dist",
+    "start": "npm run clean && npm run build && node dist/index.js"
+  },
+  "author": "alex",
+  "license": "MIT",
+  "dependencies": {
+    "@types/puppeteer": "^1.12.3",
+    "puppeteer": "^1.14.0"
+  }
+}
